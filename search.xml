@@ -10,7 +10,7 @@
       
       <categories>
           
-          <category> 网络安全 </category>
+          <category> 信息安全 </category>
           
       </categories>
       
@@ -193,21 +193,6 @@
     </entry>
     
     <entry>
-      <title>hexo使用方法</title>
-      <link href="/2017/05/01/hexo-md/"/>
-      <url>/2017/05/01/hexo-md/</url>
-      <content type="html"><![CDATA[<h1 id="基础目录和配置"><a href="#基础目录和配置" class="headerlink" title="基础目录和配置"></a>基础目录和配置</h1><ul><li>使用的是 hexo3</li><li>github 的仓库地址  <a href="https://yangjinbiao.github.io">git博客</a>.</li><li>博客目录在 ~/blog/content</li><li>nodejs 安装路径  ~/blog/node-v6.10.2-linux-x64</li><li><p>有时候更新你不成功 需要更改nodejs的仓库地址为淘宝的地址 .</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">    sudo npm i -g npm  --registry=https://registry.npm.taobao.org</span><br><span class="line">    sudo npm install -g hexo-cli --registry=https://registry.npm.taobao.org</span><br><span class="line">    npm install hexo-deployer-git --save</span><br><span class="line">    npm install hexo-server --save</span><br><span class="line"><span class="comment">#如果必要可以执行</span></span><br><span class="line">    npm install hexo-renderer-ejs --save</span><br><span class="line">    npm install hexo-renderer-stylus --save</span><br><span class="line">    npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li><li><p>主题只是使用了next </p><pre><code>&gt;   deepin下的安装方式 使用的是 从官网下载压缩包解压的方法,需要export路径，要不然找不到命令</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> NODE_HOME=/home/yang/blog/node-v6.10.2-linux-x64</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$NODE_HOME</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="相关配置"><a href="#相关配置" class="headerlink" title="相关配置"></a>相关配置</h1><ul><li>作者，标题，简介都在 站点配置文件(_config.yml)里面</li><li>博客主题样式可以有多个</li><li><strong>配置选项后面必须有个空格</strong></li></ul><hr><h2 id="相关命令"><a href="#相关命令" class="headerlink" title="相关命令"></a>相关命令</h2><p><strong>新建页面可以试试</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>  <span class="comment">#查看帮助</span></span><br><span class="line">hexo version  <span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure></p><blockquote><p>部署的步骤如下命令 </p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h2 id="错误记录"><a href="#错误记录" class="headerlink" title="错误记录"></a>错误记录</h2><ul><li>hexo3 的git 模块和server 模块已经分开,需要单独安装.</li><li>如果运行server 出现错误提示，注意看错误的关键字 然后打开 参考网址：搜索关键字,linux有可能出现的是notify 监控文件数不够.<br>$ 在开头的tag title等需要要和后面的内容有个空格否则生成错误.</li></ul><h3 id="常用网址"><a href="#常用网址" class="headerlink" title="常用网址"></a>常用网址</h3><ul><li><a href="https://github.com/lotabout/very-simple" target="_blank" rel="external">https://github.com/lotabout/very-simple</a></li><li><a href="https://github.com/lotabout/very-simple" target="_blank" rel="external">https://github.com/lotabout/very-simple</a></li></ul><ul><li>[] 学习使用markdown的高级语法</li><li>[] 寻找合适的Linux下 markdown 编辑器</li></ul>]]></content>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>QT交叉编译相关-windows-linux</title>
       <link href="/2017/05/01/QT%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E7%9B%B8%E5%85%B3/"/>
       <url>/2017/05/01/QT%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91%E7%9B%B8%E5%85%B3/</url>
@@ -219,6 +204,21 @@
             <tag> QT </tag>
             
             <tag> 交叉编译 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>hexo使用方法</title>
+      <link href="/2017/05/01/hexo-md/"/>
+      <url>/2017/05/01/hexo-md/</url>
+      <content type="html"><![CDATA[<h1 id="基础目录和配置"><a href="#基础目录和配置" class="headerlink" title="基础目录和配置"></a>基础目录和配置</h1><ul><li>使用的是 hexo3</li><li>github 的仓库地址  <a href="https://yangjinbiao.github.io">git博客</a>.</li><li>博客目录在 ~/blog/content</li><li>nodejs 安装路径  ~/blog/node-v6.10.2-linux-x64</li><li><p>有时候更新你不成功 需要更改nodejs的仓库地址为淘宝的地址 .</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">    sudo npm i -g npm  --registry=https://registry.npm.taobao.org</span><br><span class="line">    sudo npm install -g hexo-cli --registry=https://registry.npm.taobao.org</span><br><span class="line">    npm install hexo-deployer-git --save</span><br><span class="line">    npm install hexo-server --save</span><br><span class="line"><span class="comment">#如果必要可以执行</span></span><br><span class="line">    npm install hexo-renderer-ejs --save</span><br><span class="line">    npm install hexo-renderer-stylus --save</span><br><span class="line">    npm install hexo-renderer-marked --save</span><br></pre></td></tr></table></figure></li><li><p>主题只是使用了next </p><pre><code>&gt;   deepin下的安装方式 使用的是 从官网下载压缩包解压的方法,需要export路径，要不然找不到命令</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> NODE_HOME=/home/yang/blog/node-v6.10.2-linux-x64</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$NODE_HOME</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure></li></ul><h1 id="相关配置"><a href="#相关配置" class="headerlink" title="相关配置"></a>相关配置</h1><ul><li>作者，标题，简介都在 站点配置文件(_config.yml)里面</li><li>博客主题样式可以有多个</li><li><strong>配置选项后面必须有个空格</strong></li></ul><hr><h2 id="相关命令"><a href="#相关命令" class="headerlink" title="相关命令"></a>相关命令</h2><p><strong>新建页面可以试试</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"postName"</span> <span class="comment">#新建文章</span></span><br><span class="line">hexo new page <span class="string">"pageName"</span> <span class="comment">#新建页面</span></span><br><span class="line">hexo generate <span class="comment">#生成静态页面至public目录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端口（默认端口4000，'ctrl + c'关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#将.deploy目录部署到GitHub</span></span><br><span class="line">hexo <span class="built_in">help</span>  <span class="comment">#查看帮助</span></span><br><span class="line">hexo version  <span class="comment">#查看Hexo的版本</span></span><br></pre></td></tr></table></figure></p><blockquote><p>部署的步骤如下命令 </p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure><h2 id="错误记录"><a href="#错误记录" class="headerlink" title="错误记录"></a>错误记录</h2><ul><li>hexo3 的git 模块和server 模块已经分开,需要单独安装.</li><li>如果运行server 出现错误提示，注意看错误的关键字 然后打开 参考网址：搜索关键字,linux有可能出现的是notify 监控文件数不够.<br>$ 在开头的tag title等需要要和后面的内容有个空格否则生成错误.</li></ul><h3 id="常用网址"><a href="#常用网址" class="headerlink" title="常用网址"></a>常用网址</h3><ul><li><a href="https://github.com/lotabout/very-simple" target="_blank" rel="external">https://github.com/lotabout/very-simple</a></li><li><a href="https://github.com/lotabout/very-simple" target="_blank" rel="external">https://github.com/lotabout/very-simple</a></li></ul><ul><li>[] 学习使用markdown的高级语法</li><li>[] 寻找合适的Linux下 markdown 编辑器</li></ul>]]></content>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -250,16 +250,16 @@
     </entry>
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>Tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>Tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
