@@ -3,10 +3,46 @@
   
     
     <entry>
+      <title>nextcloud添加APP的特殊方式</title>
+      <link href="/2018/05/11/nextcloud%E6%B7%BB%E5%8A%A0APP%E7%9A%84%E7%89%B9%E6%AE%8A%E6%96%B9%E5%BC%8F/"/>
+      <url>/2018/05/11/nextcloud%E6%B7%BB%E5%8A%A0APP%E7%9A%84%E7%89%B9%E6%AE%8A%E6%96%B9%E5%BC%8F/</url>
+      <content type="html"><![CDATA[<blockquote><p>直接在 应用页面添加由于网络问题会添加失败.所以需要手工下载修改来安装.</p></blockquote><ul><li>登录网站 <a href="https://apps.nextcloud.com/apps/" target="_blank" rel="external">https://apps.nextcloud.com/apps/</a></li></ul><ul><li>下载对应的app ，解压到nextcloud/apps/目录下.使用浏览器会下载失败，使用wget 目前可以下载成功只有几k速率.</li></ul>]]></content>
+      
+      <categories>
+          
+          <category> 我的DIY </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 树莓派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>kaoshi_高项考试相关资源汇总</title>
+      <link href="/2018/05/10/kaoshi-%E9%AB%98%E9%A1%B9%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/"/>
+      <url>/2018/05/10/kaoshi-%E9%AB%98%E9%A1%B9%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</url>
+      <content type="html"><![CDATA[<p><a href="https://ke.qq.com/course/list/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88?task_filter=0000000&amp;&amp;price_min=0&amp;price_max=0" target="_blank" rel="external">https://ke.qq.com/course/list/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88?task_filter=0000000&amp;&amp;price_min=0&amp;price_max=0</a></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 信息系统项目管理师 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>数据挖掘</title>
       <link href="/2018/05/10/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
       <url>/2018/05/10/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/</url>
-      <content type="html"><![CDATA[<p>主要是考试概念和下面的这张图.<br><img src="/2018/05/10/数据挖掘/1.png" alt="数据挖掘"></p>]]></content>
+      <content type="html"><![CDATA[<h1 id="主要是考试数据挖掘的概念和下面的这张图"><a href="#主要是考试数据挖掘的概念和下面的这张图" class="headerlink" title="主要是考试数据挖掘的概念和下面的这张图."></a>主要是考试数据挖掘的概念和下面的这张图.</h1><p><img src="/2018/05/10/数据挖掘/1.png" alt="数据挖掘"></p>]]></content>
       
       
         <tags>
@@ -26,7 +62,7 @@
       
         <tags>
             
-            <tag> 技术 </tag>
+            <tag> 信息系统项目管理师 </tag>
             
         </tags>
       
@@ -276,13 +312,6 @@
   
     
     <entry>
-      <title>About</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<h1 id="我的介绍"><a href="#我的介绍" class="headerlink" title="我的介绍"></a>我的介绍</h1>]]></content>
-    </entry>
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -294,6 +323,13 @@
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>About</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h1 id="我的介绍"><a href="#我的介绍" class="headerlink" title="我的介绍"></a>我的介绍</h1>]]></content>
     </entry>
     
   

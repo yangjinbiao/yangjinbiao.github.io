@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yangjinbiao.github.io/"/>
-  <updated>2018-05-10T11:54:17.329Z</updated>
+  <updated>2018-05-11T09:19:27.760Z</updated>
   <id>https://yangjinbiao.github.io/</id>
   
   <author>
@@ -17,20 +17,71 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>数据挖掘</title>
-    <link href="https://yangjinbiao.github.io/2018/05/10/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
-    <id>https://yangjinbiao.github.io/2018/05/10/数据挖掘/</id>
-    <published>2018-05-10T11:46:44.000Z</published>
-    <updated>2018-05-10T11:54:17.329Z</updated>
+    <title>nextcloud添加APP的特殊方式</title>
+    <link href="https://yangjinbiao.github.io/2018/05/11/nextcloud%E6%B7%BB%E5%8A%A0APP%E7%9A%84%E7%89%B9%E6%AE%8A%E6%96%B9%E5%BC%8F/"/>
+    <id>https://yangjinbiao.github.io/2018/05/11/nextcloud添加APP的特殊方式/</id>
+    <published>2018-05-11T09:13:23.000Z</published>
+    <updated>2018-05-11T09:19:27.760Z</updated>
     
-    <content type="html"><![CDATA[<p>主要是考试概念和下面的这张图.<br><img src="/2018/05/10/数据挖掘/1.png" alt="数据挖掘"></p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>直接在 应用页面添加由于网络问题会添加失败.所以需要手工下载修改来安装.</p></blockquote><ul><li>登录网站 <a href="https://apps.nextcloud.com/apps/" target="_blank" rel="external">https://apps.nextcloud.com/apps/</a></li></ul><ul><li>下载对应的app ，解压到nextcloud/apps/目录下.使用浏览器会下载失败，使用wget 目前可以下载成功只有几k速率.</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;主要是考试概念和下面的这张图.&lt;br&gt;&lt;img src=&quot;/2018/05/10/数据挖掘/1.png&quot; alt=&quot;数据挖掘&quot;&gt;&lt;/p&gt;
-
+        &lt;blockquote&gt;
+&lt;p&gt;直接在 应用页面添加由于网络问题会添加失败.所以需要手工下载修改来安装.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;登录网站 &lt;a href=&quot;https://apps.nextcloud.com/apps/&quot; target=&quot;_bla
+      
+    
+    </summary>
+    
+      <category term="我的DIY" scheme="https://yangjinbiao.github.io/categories/%E6%88%91%E7%9A%84DIY/"/>
+    
+    
+      <category term="树莓派" scheme="https://yangjinbiao.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>kaoshi_高项考试相关资源汇总</title>
+    <link href="https://yangjinbiao.github.io/2018/05/10/kaoshi-%E9%AB%98%E9%A1%B9%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/"/>
+    <id>https://yangjinbiao.github.io/2018/05/10/kaoshi-高项考试相关资源汇总/</id>
+    <published>2018-05-10T12:17:13.000Z</published>
+    <updated>2018-05-10T12:26:02.203Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://ke.qq.com/course/list/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88?task_filter=0000000&amp;&amp;price_min=0&amp;price_max=0" target="_blank" rel="external">https://ke.qq.com/course/list/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88?task_filter=0000000&amp;&amp;price_min=0&amp;price_max=0</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://ke.qq.com/course/list/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88?task_filter=0000
+      
+    
+    </summary>
+    
+    
+      <category term="信息系统项目管理师" scheme="https://yangjinbiao.github.io/tags/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据挖掘</title>
+    <link href="https://yangjinbiao.github.io/2018/05/10/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98/"/>
+    <id>https://yangjinbiao.github.io/2018/05/10/数据挖掘/</id>
+    <published>2018-05-10T11:46:44.000Z</published>
+    <updated>2018-05-10T12:05:53.657Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="主要是考试数据挖掘的概念和下面的这张图"><a href="#主要是考试数据挖掘的概念和下面的这张图" class="headerlink" title="主要是考试数据挖掘的概念和下面的这张图."></a>主要是考试数据挖掘的概念和下面的这张图.</h1><p><img src="/2018/05/10/数据挖掘/1.png" alt="数据挖掘"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;主要是考试数据挖掘的概念和下面的这张图&quot;&gt;&lt;a href=&quot;#主要是考试数据挖掘的概念和下面的这张图&quot; class=&quot;headerlink&quot; title=&quot;主要是考试数据挖掘的概念和下面的这张图.&quot;&gt;&lt;/a&gt;主要是考试数据挖掘的概念和下面的这张图.&lt;/h1&gt;&lt;p&gt;
       
     
     </summary>
@@ -45,7 +96,7 @@
     <link href="https://yangjinbiao.github.io/2018/05/10/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90%E6%8A%80%E6%9C%AF/"/>
     <id>https://yangjinbiao.github.io/2018/05/10/信息系统集成技术/</id>
     <published>2018-05-10T11:05:24.000Z</published>
-    <updated>2018-05-10T11:53:52.270Z</updated>
+    <updated>2018-05-10T12:00:03.058Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/2018/05/10/信息系统集成技术/1.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/2.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/3.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/4.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/5.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/6.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/7.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/8.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/9.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/10.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/11.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/12.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/13.png" alt="信息系统集成技术"><br><img src="/2018/05/10/信息系统集成技术/14.png" alt="信息系统集成技术"></p>]]></content>
     
@@ -59,7 +110,7 @@
     </summary>
     
     
-      <category term="技术" scheme="https://yangjinbiao.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="信息系统项目管理师" scheme="https://yangjinbiao.github.io/tags/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E5%B8%88/"/>
     
   </entry>
   
